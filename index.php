@@ -11,28 +11,31 @@ p    {color: red;}
 <html>
     <body>
         <h1> BÀI TẬP THỰC HÀNH TRÊN LỚP </h1>
-        <?php echo "1,"; ?>
 <?php
 //1. Xuất ra trình duyệt chuỗi ‘Hello World !’
+echo "Câu 1: ";
 echo "Hello World!";
 ?>
 <?php echo "<br>" ?>
-<?php echo "2,"; ?>
+
 <?php
 //Xác định số phần tử của chuỗi 'HoangVanSang'
+echo "Câu 2: ";
 echo strlen("HoangVanSang");
 ?>
 <?php echo "<br>" ?>
-<?php echo "3,"; ?>
+
 <?php 
 //3.Viết chương trình PHP để tính lập phương của một số nguyên.
+echo "Câu 3: ";
 $x = 100;
 echo pow($x,3);
 ?>
 <?php echo "<br>" ?>
-<?php echo "4,"; ?>
+
 <?php
 //Viết chương trình PHP để đảo ngược một chuỗi.
+echo "Câu 4: ";
 echo strrev("Hello Binh");
 ?>
     </body>
@@ -51,7 +54,7 @@ echo strlen("PHAM THI THANH BINH YEU NGUYEN NGOC DUY");
 //Viết một chương trình PHP để đếm số từ trong một chuỗi sử dụng hàm str_word_count().
 echo str_word_count("Pham Thi Thanh Binh");
 ?>
-<?php echo "<br>" ?>
+â<br/>
 <?php echo "3,"; ?>
 <?php
 //Viết một chương trình PHP để đảo ngược một chuỗi sử dụng hàm strrev().
@@ -85,6 +88,7 @@ if (startsWith($x, $y)) {
     echo "Chuỗi không bắt đầu bằng chuỗi con.";
 }
 ?>
+
 <?php echo "<br>" ?>
 <?php echo "7,"; ?>
 <?php
