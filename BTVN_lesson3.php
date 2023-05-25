@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h1> BÀI TẬP BUỔI 3</h1>
+        <h1 style="text-align: center"> BÀI TẬP BUỔI 3</h1>
+        <h2 style="text-align: center">-------------------Phạm Thị Thanh Bình---------------------</h2>
         <?php
         echo "Câu 1: ";
         //Viết chương trình PHP để kiểm tra xem một số có phải là số chẵn hay không.
