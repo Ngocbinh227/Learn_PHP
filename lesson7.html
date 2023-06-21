@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <div class = " section">
+            <label class = "h1">
+                Market Research Survey
+            </label> <br>
+                <labe class="h2">
+                    Please take a few moments to complete this satisfaction Survey
+                </label>
+        </div>
+        
+          <style>
+            .section{
+                border-bottom: 1px solid rgb(188, 182, 182); /* Vạch ngang */
+                padding-bottom: 10px; /* Khoảng cách dưới vạch */
+                margin-bottom: 20px; /* Khoảng cách dưới vùng */
+            }
+            .h1 {
+                font-weight: bold;
+                font-size: 28px;
+            }
+            .h2{
+                color:gray
+            }
+          .dropdown {
+                 width: 1000px; 
+         }
+          p {
+            font-weight: bold;
+         }
+         
+         #h4 {
+            font-weight: lighter;
+            margin-left: 20px;
+            color: grey;
+         }
+         #h5 {
+            background-color: rgb(243, 246, 201);
+        
+         }
+         #submit {
+            background-color: rgb(64, 196, 165);
+            width: 100px;
+            height: 40px;
+            font-size: 16px;
+         }
+         #Moneybefore{
+            width: 70px
+         }
+         #Moneyafter{
+            width: 20px
+         }
+         #Dollars{
+            margin-left: 10px
+         }
+         #Cents{
+            margin-left: 27px
+         }
+  </style>
+    </head>
+    <body>
+        
+        <p> What is your age range?</p>
+        <select class=" dropdown">
+  <option value="18-24"> 18-24 </option>
+  <option value="25-45">25-45</option>
+  <option value="46-59">46-59</option>
+  <option value=" > 60">> 60</option>
+</select>
+        <p> What is your yearly income range?</p>
+        <select class = "dropdown">
+  <option value="$0-$25,000">$0-$25,000</option>
+  <option value="26,000-50,000">26,000-50,000</option>
+</select>
+    <p>
+        Gender Identify
+    </p>
+
+<input type="radio" id="Male" name="gender" value="Male">
+<label for="Male">Male</label><br>
+
+<input type="radio" id="Female" name="gender" value="Female">
+<label for="Female">Female</label><br>
+
+<input type="radio" id="Nonbinary" name="gender" value="Nonbinary">
+<label for="Nonbinary">Nonbinary</label><br>
+
+<input type="radio" id="Other" name="gender" value="Other" checked = "checked">
+<label for="Other">Other</label><br>
+<div id="h4">
+    <input type = "text" >
+</br>
+    <label> Maximumn of 250 characters.    Currently Used: 0 characters. </lable>
+</div>
+    <p> Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+    <input type="checkbox" id="product1" name="products[]" value="Product 1">
+    <label for="product1">Product 1</label><br>
+    <input type="checkbox" id="product2" name="products[]" value="Product 2">
+    <label for="product2">Product 2</label><br>
+    <input type="checkbox" id="product3" name="products[]" value="Product 3">
+    <label for="product3">Product 3</label><br><br>
+
+    <p>How often would you use our new product?</p>
+
+    <input type="radio" id="Daily" name="date" value="Daily">
+    <label for="Daily">Daily</label><br>
+
+    <input type="radio" id="Weekly" name="date" value="Weekly">
+    <label for="Weekly">Weekly</label><br>
+    <input type="radio" id="Monthly" name="date" value="Monthly">
+
+    <label for="Monthly">Monthly</label><br>
+    
+<div>
+    <p>What would you pay for the new product?</p>
+    <label>$</label> <input type="number" id="Moneybefore" > <label>.</label><input type = "number" id="Moneyafter"> </br>
+    <label id="Dollars">Dollars</label> <label id="Cents">Cents</label>
+</div>
+<div id="h5">
+    <p>What features would you like to see in the new product?</p>
+    <textarea id="features" name="features"></textarea><br><br>
+
+</div>
+    <label> Please rate your level of agreement with the following statements. </label></div></label> <br>
+    <input type="submit" id= "submit" value="Submit">
+
+
+    </body>
+</html>
