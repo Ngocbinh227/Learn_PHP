@@ -18,7 +18,7 @@
 <body>
 <div class="container mt-3">
     <div class="container-fluid"><h3>List Category</h3></div>
-    <a class="btn btn-success" href="./create.php">Create</a>
+    <a class="btn btn-success" href="./Create_action.php">Create</a>
     <table class="table table-hover">
         <thead>
         <tr>
